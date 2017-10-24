@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?3vgtxv');
-  src:  url('fonts/icomoon.eot?3vgtxv#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?3vgtxv') format('truetype'),
-    url('fonts/icomoon.woff?3vgtxv') format('woff'),
-    url('fonts/icomoon.svg?3vgtxv#icomoon') format('svg');
+  src:  url('icomoon.eot?koneom');
+  src:  url('icomoon.eot?koneom#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?koneom') format('truetype'),
+    url('icomoon.woff?koneom') format('woff'),
+    url('icomoon.svg?koneom#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,11 +25,11 @@
 }
 
 .icon-camera:before {
-  content: "\e90f";
+  content: "\41";
 }
 .icon-headphones:before {
-  content: "\e910";
+  content: "\42";
 }
 .icon-music:before {
-  content: "\e911";
+  content: "\43";
 }

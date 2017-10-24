@@ -21,6 +21,10 @@ li a {
   text-decoration: none;
 }
 
+li:hover {
+  color: #db964a;
+}
+
 ul li {
   display: inline; 
   list-style: none;
@@ -43,4 +47,49 @@ nav {
 
 .box-header {
   display: inline-block;
+}
+
+.logo-square {
+  width: 100px;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 2px;
+  width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 40px;
+  transition: 2s;
+}
+
+li:hover, [class^="icon-"], [class*=" icon-"] {
+  color: #db964a;
+
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #db964a;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: inherit;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #644721;
 }
